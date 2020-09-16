@@ -1,0 +1,30 @@
+header {
+  display :flex;
+  background-color: #e6e6fa;
+  border-radius: 12px;
+  border:3px #556b2f solid;
+}
+
+header img {
+  width:500px;
+}
+header p {
+  font-family: 'HG行書体';
+  line-height: 1.5;
+  font-size: 30px;
+}
+.javynow {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+  margin: 20px 0 20px 0;
+}
+.category h1 {
+  margin-top:200px;
+  margin-left: 30px;
+  border-bottom: 4px #8b4513 solid
+}
+footer {
+  font-size: 40px;
+  text-align: center;
+}
